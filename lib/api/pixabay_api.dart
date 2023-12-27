@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:image_serch_app/dto/Pixabay_image_dto.dart';
+import 'package:image_serch_app/dto/pixabay_image_dto.dart';
 
 class PixabayApi {
   final String _baseUrl =
