@@ -8,7 +8,7 @@ class PixabayApi {
 
   Future<List<PixabayImageDto>> getImages(String query) async {
     try {
-      final response = await http.get(Uri.parse('$_baseUrl&$query'));
+      final response = await http.get(Uri.parse('$_baseUrl&q=$query'));
       final json = jsonDecode(response.body);
       final images = json['hits'];
 
