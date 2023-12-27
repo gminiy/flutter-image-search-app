@@ -1,4 +1,4 @@
-import 'package:image_serch_app/dto/Pixabay_image_dto.dart';
+import 'package:image_serch_app/dto/pixabay_image_dto.dart';
 import 'package:image_serch_app/model/pixabay_image.dart';
 
 extension ToPixabayImage on PixabayImageDto {
